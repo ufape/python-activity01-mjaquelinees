@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Maria Jaqueline
 # UAG00098
 # Problem Set 1 - Problem 4
 # Description:
@@ -30,7 +30,9 @@ Exemplo:
 
 
 def main():
-    pass # your code here
-
+    raio = float(input("Digite o valor do raio: "))
+    pi = 3.14159
+    area = pi * (raio**2)
+    print(f"Área: {area:.5f}m")
 if __name__ == '__main__':
     main()
